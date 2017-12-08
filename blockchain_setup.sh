@@ -3,7 +3,7 @@
 # Devtar Singh <devtar.singh@petronas.com.my>
 echo "Installing system dependencies..."
 sudo apt-get install software-properties-common
-sudo add-apt-repository -y ppa:ethereum/ethereum
+sudo add-apt-repository ppa:ethereum/ethereum
 sudo apt-get install build-essential
 sudo apt-get install git
 sudo apt-get update
